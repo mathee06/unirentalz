@@ -1,0 +1,494 @@
+body {
+    background: #272a31;
+    color: #656870;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #cacbce;
+}
+
+.form-control {
+    color: #CACBCE;
+    background-color: #272a31;
+    border-color: #171717;
+}
+
+.pagination > li:first-child > a,
+.pagination > li:first-child > span,
+.pagination > li:last-child > a,
+.pagination > li:last-child > span,
+.pagination > li > a,
+.pagination > li > span {
+    background-color: #272a31;
+    border: 1px solid #171717;
+    color: #aaaaaa;
+}
+
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+    background-color: #74d2b2;
+    border-color: #4dab8b;
+    color: #ffffff;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+    color: #ffffff;
+    background-color: #74d2b2;
+    border-color: #4dab8b;
+}
+
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+    color: #9f9f9f;
+    background-color: #272a31;
+    border-color: #6F6F6F;
+}
+
+.dropdown-menu>li>a {
+    color: #aaaaaa;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+    background-color: #74D2B2;
+    color: #ffffff;
+}
+
+.dropdown-menu .divider {
+    background-color: #111216;
+}
+
+.open .dropdown-toggle.btn-default {
+    background-color: #272a31;
+    border-color: #171717;
+}
+.dropdown-menu {
+    background-color: #272a31;
+    color: #aaaaaa;
+}
+
+.dropdown-menu a {
+    background-color: #272a31;
+    color: #aaaaaa;
+}
+
+.dropdown-menu .selected a {
+    background-color: #74D2B2;
+    color: #ffffff;
+}
+
+.bootstrap-select.show-menu-arrow .dropdown-toggle:after {
+    border-bottom-color: #272a31;
+}
+
+#signin-form,
+#signup-form {
+    background-color: #272a31;
+}
+
+/* Top navigation
+/* ========================================================================== */
+
+.top-navigation {
+    -webkit-box-shadow: 0 -2px 5px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 -2px 5px 5px rgba(0,0,0,0.1);
+    background-color: #111216;
+    color: #676a71;
+}
+
+/* Header
+/* ========================================================================== */
+
+.rent-buy li {
+    border-right: solid 1px #111216;
+}
+
+.rent-buy li:first-child {
+    border-left: solid 1px #111216;
+    border-right: solid 1px #111216;
+}
+
+@media (max-width: 479px) {
+    .rent-buy li {
+        border-top: solid 1px #111216;
+    }
+}
+
+.rent-buy a {
+    color: #676a71;
+}
+
+.rent-buy a:hover {
+    background-color: #1e2127;
+    color: #676a71;
+}
+
+.rent-buy a.active:before {
+    border-top: 10px solid #272a31;
+}
+
+.rent-buy a.active:hover:before {
+    border-top: 10px solid #1e2127;
+}
+
+.site-navigation a {
+    color: #676a71;
+}
+
+.site-navigation a:hover {
+    color: #676a71;
+}
+
+.site-navigation li {
+    background-color: transparent;
+}
+
+.site-navigation li.sfHover {
+    background-color: transparent;
+}
+
+.site-navigation .sf-arrows .sf-with-ul:after {
+    border-top-color: #676a71;
+}
+
+.site-navigation .sf-arrows > li > .sf-with-ul:focus:after,
+.site-navigation .sf-arrows > li:hover > .sf-with-ul:after,
+.site-navigation .sf-arrows > .sfHover > .sf-with-ul:after {
+    border-top-color: #1e2127;
+}
+
+.site-navigation .sf-menu ul li {
+    background-color: #272a31;
+}
+
+.site-navigation .sf-menu ul li a {
+    border-top-color: #1e2127;
+}
+
+.site-navigation .sub-menu a:hover {
+    background-color: #1e2127;
+}
+
+/* Filter Now
+/* ========================================================================== */
+
+.filters {
+    border-bottom: solid 1px #111216;
+}
+
+.filters .filter-option {
+    color: #aaaaaa;
+}
+
+.filters .selectpicker {
+    background-color: #272a31;
+    border-color: #171717;
+}
+
+.filters .open .dropdown-toggle.btn-default {
+    background-color: #272a31;
+    border-color: #171717;
+}
+
+/* Title with double line
+/* ========================================================================== */
+
+.content-title:before,
+.content-title:after {
+    border-top: solid 1px #6f6f6f;
+    border-bottom: solid 1px #6f6f6f;
+}
+
+.content-title span.before {
+    border-left: solid 1px #6f6f6f;;
+}
+
+.content-title h1,
+.content-title h2,
+.content-title h3,
+.content-title h4,
+.content-title h5,
+.content-title h6 {
+    background-color: #272a31;
+}
+
+/* Featured Properties
+/* ========================================================================== */
+
+.featured-prev,
+.featured-next {
+    color: #ffffff;
+}
+
+.featured .thumbnail {
+    border-color: #272a31;
+}
+
+.touch .featured .thumbnail,
+.featured .thumbnail.hover,
+.featured .thumbnail:hover {
+    border: solid 1px #171717;
+}
+
+/* Our Features
+/* ========================================================================== */
+
+.our-features .media-icon {
+    border: solid 1px #171717;
+}
+
+/* Purchase Now
+/* ========================================================================== */
+
+.call-action {
+    background-color: #111216;
+}
+
+/* Recent Properties
+/* ========================================================================== */
+
+.projects .filtrable a {
+    border: solid 1px #171717;
+    background-color: #272a31;
+    color: #9f9f9f;
+}
+
+.projects .thumbnail {
+    border-color: #272a31;
+}
+
+
+.touch .projects .thumbnail,
+.projects .thumbnail.hover,
+.projects .thumbnail:hover {
+    border: solid 1px #171717;
+}
+
+/* Gallery
+/* ========================================================================== */
+
+.gallery .filtrable a {
+    border: solid 1px #171717;
+    background-color: #272a31;
+    color: #9f9f9f;
+}
+
+.gallery .filtrable .current a,
+.gallery .filtrable .active a,
+.gallery .filtrable a:hover {
+    border-color: #4dab8b;
+    background-color: #74d2b2;
+    color: #ffffff;
+}
+
+.gallery .thumbnail {
+    border: solid 1px #6F6F6F;
+}
+
+.touch .gallery .thumbnail,
+.gallery .thumbnail.hover,
+.gallery .thumbnail:hover {
+    border: solid 1px #74d2b2;
+}
+
+.gallery .thumbnail .caption {
+    background-color: #74d2b2;
+    background-color: rgba(116, 210, 178, 0.90);
+    color: #272a31;
+}
+
+/* Single project
+/* ========================================================================== */
+
+.project-slider .flexslider-small li img {
+    border: solid 1px #6F6F6F;
+}
+
+.project-slider .flexslider-small img:hover  {
+    border: solid 1px #74d2b2;
+}
+
+.information {
+    color: #ffffff;
+}
+
+
+/* Agents
+/* ========================================================================== */
+
+.agents .thumbnail {
+    border-color: #272a31;
+}
+
+.touch .agents .thumbnail,
+.agents .thumbnail.hover,
+.agents .thumbnail:hover {
+    border: solid 1px #171717;
+}
+
+/* Testimonials
+/* ========================================================================== */
+
+.testimonials .content {
+    border: solid 1px #6F6F6F;
+}
+
+.testimonials .content:before {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 5px solid #6F6F6F;
+}
+.testimonials .content:after {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 4px solid #272A31;
+}
+.testimonials .author {
+    color: #ffffff;
+}
+
+/* Last tweet
+/* ========================================================================== */
+
+.last-tweet {
+    border-top: solid 1px #171717;
+    color: #a1a1a1;
+}
+
+.last-tweet .media-icon .fa {
+    color: #303030;
+}
+
+.last-tweet a:hover {
+    color: #ffffff;
+}
+
+/* Footer
+/* ========================================================================== */
+
+.footer {
+    background-color: #111216;
+    color: #707276;
+}
+
+.footer-line {
+    border-top: solid 1px #272a31;
+    background-color: #111216;
+    color: #6f747e;
+}
+
+.footer-line a {
+    color: #6f747e;
+}
+
+.footer-line a:hover {
+    color: #74d2b2;
+}
+
+.footer .form-control {
+    color: #707276;
+    background-color: #111216;
+}
+
+/* Error Page
+/* ========================================================================== */
+
+.error-page h1 {
+    color: #d8d9dd;
+}
+
+.error-description {
+    color: #d8d9dd;
+}
+
+/* Search result
+/* ========================================================================== */
+
+.search-result .thumbnail {
+    border-color: #272a31;
+}
+
+.touch .search-result .thumbnail,
+.search-result .thumbnail.hover,
+.search-result .thumbnail:hover {
+    border: solid 1px #171717;
+}
+
+.error-message {
+    color: #a1a1a1;
+}
+
+/* Modal
+/* ========================================================================== */
+
+.modal-content {
+    background-color: #272a31;
+}
+
+.modal-header,
+.modal-footer {
+    border-color: #171717;
+}
+
+.close {
+    color: #a1a1a1;
+}
+
+.close:hover,
+.close:focus {
+    color: #CACBCE;
+}
+
+/**/
+
+.btn-default {
+    color: #CACBCE;
+    background-color: #272a31;
+    border-color: #171717;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+    color: #CACBCE;
+    background-color: #171717;
+    border-color: #171717;
+}
+
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+    background-image: none;
+}
+
+.btn-default.disabled,
+.btn-default[disabled],
+fieldset[disabled] .btn-default,
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled:active,
+.btn-default[disabled]:active,
+fieldset[disabled] .btn-default:active,
+.btn-default.disabled.active,
+.btn-default[disabled].active,
+fieldset[disabled] .btn-default.active {
+    background-color: #272a31;
+    border-color: #171717;
+}

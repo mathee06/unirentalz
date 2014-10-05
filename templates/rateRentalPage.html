@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link href="/stylesheets/front.css" rel="stylesheet" type="text/css">
+        <title>Rate House</title>
+    </head>
+    <body>
+        <h1>Rate your house {{username}}! </h1>
+
+        <form method="post">
+            <label for="currentLandlord">Current Landlord: </label>
+            <input type="text" name="currentLandlord" value="{{currentLandlord}}"></input>
+            <table id="addRating" width="445" border="0" cellspacing="0" cellpadding="0">
+                <tr><td colspan="5" style="border-bottom: none;"></td></tr>                
+                <tr><td colspan="5" class="rating_even"><label class="formcat">Responsible:</label></td></tr>
+                <tr class="rating_even">
+                    <td width="20%">
+                        <ul>
+                            <li><label><input name="responsibleRB" type="radio" value="1" tabindex="1"> 1</label></li>
+                            <li><span class="rating_span">Low </span></li>
+                        </ul>
+                    </td>
+                    <td width="20%" align="center">
+                        <ul>
+                            <li><label><input name="responsibleRB" type="radio" value="2"> 2</label></li>
+                            <li><span class="rating_span"> &nbsp;</span></li>
+                        </ul>
+                    </td>
+                    <td width="20%" align="center">
+                        <ul>
+                            <li><label><input name="responsibleRB" type="radio" value="3"> 3</label></li>
+                            <li><span class="rating_span"> &nbsp;</span></li>
+                        </ul>
+                    </td>
+                    <td width="20%" align="center">
+                        <ul>
+                            <li><label><input name="responsibleRB" type="radio" value="4"> 4</label></li>
+                            <li><span class="rating_span"> &nbsp;</span></li>
+                        </ul>
+                    </td>
+                    <td width="20%">
+                        <ul>
+                            <li><label><input name="responsibleRB"  type="radio" value="5"> 5</label></li>
+                            <li><span class="rating_span rating_span_right">High </span></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr><td colspan="5" style="border-bottom: none;"></td></tr>                
+                <tr><td colspan="5" class="rating_even"><label class="formcat">Leadership:</label></td></tr>
+                <tr class="rating_even">
+                    <td width="20%">
+                        <ul>
+                            <li><label><input name="leadershipRB"  type="radio" value="1" tabindex="2"> 1</label></li>
+                            <li><span class="rating_span">Low </span></li>
+                        </ul>
+                    </td>
+                    <td width="20%" align="center">
+                        <ul>
+                            <li><label><input name="leadershipRB"  type="radio" value="2"> 2</label></li>
+                            <li><span class="rating_span"> &nbsp;</span></li>
+                        </ul>
+                    </td>
+                    <td width="20%" align="center">
+                        <ul>
+                            <li><label><input name="leadershipRB"  type="radio" value="3"> 3</label></li>
+                            <li><span class="rating_span"> &nbsp;</span></li>
+                        </ul>
+                    </td>
+                    <td width="20%" align="center">
+                        <ul>
+                            <li><label><input name="leadershipRB"  type="radio" value="4"> 4</label></li>
+                            <li><span class="rating_span"> &nbsp;</span></li>
+                        </ul>
+                    </td>
+                    <td width="20%">
+                        <ul>
+                            <li><label><input name="leadershipRB"  type="radio" value="5"> 5</label></li>
+                            <li><span class="rating_span rating_span_right">High </span></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr><td colspan="5" style="border-bottom: none;"></td></tr>                
+                <tr><td colspan="5" class="rating_even"><label class="formcat">Reasonable:</label></td></tr>
+                <tr class="rating_even">
+                    <td width="20%">
+                        <ul>
+                            <li><label><input name="reasonableRB"  type="radio" value="1" tabindex="3"> 1</label></li>
+                            <li><span class="rating_span">Low </span></li>
+                        </ul>
+                    </td>
+                    <td width="20%" align="center">
+                        <ul>
+                            <li><label><input name="reasonableRB"  type="radio" value="2"> 2</label></li>
+                            <li><span class="rating_span"> &nbsp;</span></li>
+                        </ul>
+                    </td>
+                    <td width="20%" align="center">
+                        <ul>
+                            <li><label><input name="reasonableRB"  type="radio" value="3"> 3</label></li>
+                            <li><span class="rating_span"> &nbsp;</span></li>
+                        </ul>
+                    </td>
+                    <td width="20%" align="center">
+                        <ul>
+                            <li><label><input name="reasonableRB"  type="radio" value="4"> 4</label></li>
+                            <li><span class="rating_span"> &nbsp;</span></li>
+                        </ul>
+                    </td>
+                    <td width="20%">
+                        <ul>
+                            <li><label><input name="reasonableRB"  type="radio" value="5"> 5</label></li>
+                            <li><span class="rating_span rating_span_right">High </span></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr><td colspan="5" style="border-bottom: none;"></td></tr>                
+                <tr><td colspan="5" class="rating_even"><label class="formcat">Respectful:</label></td></tr>
+                <tr class="rating_even">
+                    <td width="20%">
+                        <ul>
+                            <li><label><input name="respectfulRB"  type="radio" value="1" tabindex="4"> 1</label></li>
+                            <li><span class="rating_span">Low </span></li>
+                        </ul>
+                    </td>
+                    <td width="20%" align="center">
+                        <ul>
+                            <li><label><input name="respectfulRB"  type="radio" value="2"> 2</label></li>
+                            <li><span class="rating_span"> &nbsp;</span></li>
+                        </ul>
+                    </td>
+                    <td width="20%" align="center">
+                        <ul>
+                            <li><label><input name="respectfulRB"  type="radio" value="3"> 3</label></li>
+                            <li><span class="rating_span"> &nbsp;</span></li>
+                        </ul>
+                    </td>
+                    <td width="20%" align="center">
+                        <ul>
+                            <li><label><input name="respectfulRB"  type="radio" value="4"> 4</label></li>
+                            <li><span class="rating_span"> &nbsp;</span></li>
+                        </ul>
+                    </td>
+                    <td width="20%">
+                        <ul>
+                            <li><label><input name="respectfulRB"  type="radio" value="5"> 5</label></li>
+                            <li><span class="rating_span rating_span_right">High </span></li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+            <h3>Comments:</h3>
+            <textarea name="commentSubmission" value="{{commentSubmission}}"></textarea>
+            <hr>
+            <input type="submit" name="submitRating" value="Submit Rating!">
+        </form>
+        <hr>
+    </body>
+</html>

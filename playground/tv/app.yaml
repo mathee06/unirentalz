@@ -1,0 +1,43 @@
+application: macgpabeta
+version: 1-0-1
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: /images
+  static_dir: images
+  http_headers:
+    Vary: Accept-Encoding
+
+- url: /bootstrap
+  static_dir: HTML/bootstrap
+  http_headers:
+    Vary: Accept-Encoding
+
+- url: /js
+  static_dir: HTML/js
+#  expiration: "30d"
+  http_headers:
+    Vary: Accept-Encoding
+
+
+- url: .*
+  script: main.app
+#  login: admin
+
+
+builtins:
+- appstats: on
+
+
+libraries:
+- name: webapp2
+  version: "2.5.2"
+
+- name: jinja2
+  version: latest
