@@ -232,16 +232,3 @@ application = webapp2.WSGIApplication([('/', MainPage),
                                        ], debug=True)
 
 
-'''
-http://themeforest.net/search?utf8=%E2%9C%93&category=site-templates&term=bootstrap+3
-Shit to Do:
-- error handling for no input (Uncaught TypeError: Cannot read property '0' of undefined)
-- ensure search input is not just a street name 
-- listing page 
-    - code to dump needed data on page
-- clean up files 
-- re-direct if page does not exist
-- avoiding errors in empty addratings form
-'''
-
-
